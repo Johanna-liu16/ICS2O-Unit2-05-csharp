@@ -21,8 +21,8 @@ class Program
         hourlyRate = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("");
-        Console.WriteLine("Your pay is: $ " + ((hoursWorked * hourlyRate) * ( 1.00 - 0.18 )).ToString("0.00") + ".");
-        Console.WriteLine("The government will take: $ " + ((hoursWorked * hourlyRate) * 0.18).ToString("0.00") +  ".");
+        Console.WriteLine("Your pay is: $ " + ((hoursWorked * hourlyRate) * ( 1.00 - 0.18 ) ).ToString("0.00") + ".");
+        Console.WriteLine("The government will take: $ " + ( (hoursWorked * hourlyRate) * 0.18).ToString("0.00") +  ".");
 
         Console.WriteLine("\nDone.");
     }
